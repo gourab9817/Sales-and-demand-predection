@@ -43,7 +43,8 @@ Check out our explanation video on [YouTube](https://youtu.be/i_ascBjwy2I?si=rpH
 ## Installation Guide
 1. **Clone this repository:**
     ```bash
-    git clone https://github.com/Fortunatetech/Stores-Sales-Prediction-ML-Project.git
+
+    https://github.com/gourab9817/Sales-and-demand-predection.git
     ```
 2. **Install the necessary packages:**
     ```bash
