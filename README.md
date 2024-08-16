@@ -8,7 +8,9 @@ In the fast-paced retail industry, accurate demand forecasting is crucial for op
 ## Our Approach
 We've embarked on a mission to develop a powerful demand forecasting model that incorporates a wide range of variables. Our data preprocessing pipeline expertly handles both categorical and numerical features, utilizing advanced encoding techniques, one-hot encoding, and scaling strategies. And that's not where we stopped!
 
-![Sales Prediction Dashboard](https://user-images.githubusercontent.com/your-image-link-here)
+![Sales Prediction Dashboard]([https://user-images.githubusercontent.com/your-image-link-here](https://github.com/gourab9817/Sales-and-demand-predection/blob/main/web_page.png))
+![Sales Prediction Dashboard]([https://user-images.githubusercontent.com/your-image-link-here](https://github.com/gourab9817/Sales-and-demand-predection/blob/main/web_page.png))
+
 
 ### Soaring with Flask
 To ensure that our predictions are both accessible and actionable, we've built a user-friendly Flask web application. Now, anyone can interact with our model, input their data, and receive instant sales forecasts – all through a streamlined and intuitive interface.
