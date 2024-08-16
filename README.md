@@ -30,6 +30,9 @@ Our Sales and Demand Prediction Project isn't just about numbers; it's about ena
 
 Interested in exploring our project? Visit our [GitHub repository](https://github.com/Fortunatetech/Stores-Sales-Prediction-ML-Project), where you can dive into the code, try out our app, and experience the future of demand forecasting firsthand! 🚀📊
 
+## Explanation Video
+Check out our explanation video on [YouTube](https://youtu.be/i_ascBjwy2I?si=rpHKnLQAsVhhMz1z) to see how the project works in action!
+
 ## Core Features
 - **Input Data and Receive Real-Time Predictions**
 - **Interactive Dashboard**
@@ -72,5 +75,3 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) fi
 - **Gourab Choudhury**
   - Email: [c.gourab180@gmail.com](mailto:c.gourab180@gmail.com)
 
-## Explanation Video
-Check out our explanation video on [YouTube](https://youtu.be/i_ascBjwy2I?si=rpHKnLQAsVhhMz1z) to see how the project works in action!
