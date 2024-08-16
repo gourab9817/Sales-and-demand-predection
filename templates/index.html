@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sales Prediction Dashboard</title>
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #1f1f1f;
+        margin: 0;
+        padding: 0;
+        color: #eaeaea;
+      }
+
+      header {
+        background-color: #242424;
+        color: #fff;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .navbar {
+        display: flex;
+        align-items: center;
+      }
+
+      .navbar img {
+        width: 40px;
+        height: 40px;
+        margin-right: 15px;
+      }
+
+      .navbar a {
+        margin-right: 20px;
+        color: #eaeaea;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 8px 16px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+
+      .navbar a:hover {
+        background-color: #3a3a3a;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+
+      section {
+        background-color: #2b2b2b;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+      }
+
+      h2 {
+        font-size: 28px;
+        color: #ff6f61;
+      }
+
+      p, ul, ol {
+        font-size: 18px;
+        line-height: 1.7;
+      }
+
+      a {
+        color: #ff6f61;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      footer {
+        background-color: #242424;
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .linkedin {
+        color: #0a66c2;
+      }
+
+      #predict-button {
+        display: inline-block;
+        padding: 12px 25px;
+        background-color: #ff6f61;
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        border-radius: 8px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      #predict-button:hover {
+        background-color: #e55d50;
+      }
+
+      .box {
+        background-color: #333;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <h1>Sales Prediction Dashboard</h1>
+      </div>
+      <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="https://github.com/gourab9817" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/gourab-choudhury-094106269/" target="_blank">LinkedIn</a>
+      </nav>
+    </header>
+
+    <a href="/predictdata" class="btn btn-primary" id="predict-button">Prediction Page</a>
+
+    <section>
+      <h2>Team NG</h2>
+      <p>
+        <strong>Nikhil Jangid</strong> and <strong>Gourab Choudhury</strong><br />
+        Vellore Institute of Technology<br />
+        B.Tech CSE Students
+      </p>
+    </section>
+
+    <section class="box">
+      <h2>Problem Statement</h2>
+      <p>
+        In the retail sector, accurately predicting sales is crucial for efficient inventory management, marketing strategies, and overall business success. Traditional methods often fall short in capturing complex patterns and trends, leading to either overstocking or stockouts, both of which can be costly. The challenge is to develop a model that can forecast sales accurately, considering various factors such as product type, location, and time.
+      </p>
+    </section>
+
+    <section class="box">
+      <h2>Solution</h2>
+      <p>
+        Our Sales Prediction Dashboard leverages machine learning algorithms to provide accurate sales forecasts. By analyzing historical data and identifying patterns, the model predicts future sales, helping businesses make informed decisions. The solution includes an easy-to-use interface where users can input relevant data and receive real-time predictions, along with a robust API for seamless integration into existing systems.
+      </p>
+    </section>
+
+    <section>
+      <h2>About This Project</h2>
+      <p>
+        Explore our Sales Prediction Project, designed to revolutionize retail
+        forecasting. This tool empowers businesses with accurate sales
+        forecasts, enabling better decision-making and optimized operations.
+      </p>
+    </section>
+
+    <section>
+      <h2>Key Features</h2>
+      <ul>
+        <li>Input Data and Get Real-time Predictions</li>
+        <li>Interactive Dashboard</li>
+        <li>Easy-to-Use API for Integration</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>How to Use</h2>
+      <p>Follow these simple steps to use the Sales Prediction Dashboard:</p>
+      <ol>
+        <li>Navigate to prediction page, positioned at the top left corner.</li>
+        <li>Enter your data in the required format.</li>
+        <li>Click "Get Predictions" to receive real-time sales forecasts.</li>
+        <li>Need more info, navigate back to home page.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Info About Input Features</h2>
+      <p>The features required for the sale predictions are as follows:</p>
+      <ol>
+        <li>Item_Weight: Item Weight is the Weight of product. You can only input a float number and the number ranges from 4.56 to 21.35</li>
+        <li>Item_Fat_Content: This is Whether the product is low fat or Regular. You can only input a string value.</li>
+        <li>Item_Type: The category to which the product belongs . You can only input a string value.</li>
+        <li>Item_MRP : You can only input a float number.</li>
+        <li>Outlet_Size: You can only input a string.</li>
+        <li>Outlet_Location_Type: You can only input a string.</li>
+        <li>Outlet_Type: You can only input a string.</li>
+        <li>Outlet_Age: The Store age. You can only input an integer value and the value starts from 14 </li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Sample Data</h2>
+      <p>
+        For your convenience, you can download a sample dataset
+        <a href="https://www.kaggle.com/datasets/gourab8889/sales-and-demand-predictionng"
+          >here</a
+        >.
+      </p>
+    </section>
+
+    
+
+    <section>
+      <h2>Explore the Code</h2>
+      <p>
+        Visit our
+        <a href="https://github.com/gourab9817/Sales-and-demand-predection" target="_blank"
+          >GitHub repository</a
+        >
+        to explore the code and documentation.
+      </p>
+    </section>
+
+    <footer>
+      <p>
+        &copy; 2023 Nikhil Gourab. Connect with me on
+        <a href="https://www.linkedin.com/in/gourab-choudhury-094106269/" target="_blank" class="linkedin">LinkedIn</a>
+      </p>
+    </footer>
+  </body>
+</html>
